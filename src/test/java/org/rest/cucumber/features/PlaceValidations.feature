@@ -1,5 +1,5 @@
 Feature: Vaidating Place API's
-@AddPlace
+@AddPlace @Regression
   Scenario Outline: Verify if place is being successfully added using addPlaceAPI
     Given Add Place Payload with "<name>" "<language>" "<address>"
     When user calls the "ADDPLACEAPI" with "post" http request
@@ -10,7 +10,7 @@ Feature: Vaidating Place API's
       | name          | language | address                          |
       | hanu-paradise | Kanada   | electronic city,Bangalore, India |
       | ram-paradise  | Telugu   | Gachibowli, Hyderabad, India     |
-@DeletePlace
+@DeletePlace @Regression
   Scenario: Verify whether the place is deleted
   Given delete payload is given
   When user calls the "DELETEPLACEAPI" with "delete" http request
