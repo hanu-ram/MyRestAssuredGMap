@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/java/org/rest/cucumber/features",
         glue = {"org.rest.cucumber.stepdefinitions"},
-        tags = "@DeletePlace",
+        //tags = "@DeletePlace",
         plugin ={"pretty","json:target/jsonReports/Gmap-cucumber-reports.json"}
 )
 public class GMapTestRunner {
