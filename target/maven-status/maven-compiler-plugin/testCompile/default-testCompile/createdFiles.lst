@@ -1,0 +1,6 @@
+org\rest\cucumber\resources\MapTestDataBuild.class
+org\rest\cucumber\resources\APIResource.class
+org\rest\cucumber\resources\GMapUtils.class
+org\rest\cucumber\options\GMapTestRunner.class
+org\rest\cucumber\stepdefinitions\GMapHook.class
+org\rest\cucumber\stepdefinitions\GMapValidationDef.class
