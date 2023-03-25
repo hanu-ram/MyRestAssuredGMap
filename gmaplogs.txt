@@ -16,18 +16,18 @@ Body:
         "lng": "33.427362"
     },
     "accuracy": 50,
-    "name": "hanu-paradise",
+    "name": "Paris",
     "phone_number": "99999999999",
-    "address": "electronic city,Bangalore, India",
+    "address": "testing address",
     "types": [
         "shoe park",
         "shop"
     ],
     "website": "http://google.com",
-    "language": "Kanada"
+    "language": "French"
 }
 HTTP/1.1 200 OK
-Date: Sat, 25 Mar 2023 09:05:47 GMT
+Date: Sat, 25 Mar 2023 10:22:27 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,133 +40,10 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "65092565cc10ee7ddbbcf9ccb6583576",
+    "place_id": "d5491ccfc0eabb8f40ceff77a42d4605",
     "scope": "APP",
-    "reference": "138707d290e21a81fafe2cba9691b6b9138707d290e21a81fafe2cba9691b6b9",
-    "id": "138707d290e21a81fafe2cba9691b6b9"
-}
-Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=65092565cc10ee7ddbbcf9ccb6583576
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=qaclick123
-				place_id=65092565cc10ee7ddbbcf9ccb6583576
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sat, 25 Mar 2023 09:05:47 GMT
-Server: Apache/2.4.41 (Ubuntu)
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Max-Age: 3600
-Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 252
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "location": {
-        "latitude": "-38.383494",
-        "longitude": "33.427362"
-    },
-    "accuracy": "50",
-    "name": "hanu-paradise",
-    "phone_number": "99999999999",
-    "address": "electronic city,Bangalore, India",
-    "types": "shoe park,shop",
-    "website": "http://google.com",
-    "language": "Kanada"
-}
-Request method:	POST
-Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=qaclick123
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "location": {
-        "lat": "-38.383494",
-        "lng": "33.427362"
-    },
-    "accuracy": 50,
-    "name": "ram-paradise",
-    "phone_number": "99999999999",
-    "address": "Gachibowli, Hyderabad, India",
-    "types": [
-        "shoe park",
-        "shop"
-    ],
-    "website": "http://google.com",
-    "language": "Telugu"
-}
-HTTP/1.1 200 OK
-Date: Sat, 25 Mar 2023 09:05:48 GMT
-Server: Apache/2.4.41 (Ubuntu)
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Max-Age: 3600
-Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 194
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "status": "OK",
-    "place_id": "42405c601b30f81a22b656c91e7bb4ae",
-    "scope": "APP",
-    "reference": "c26711c0fdfc1c3d67fb219d2eb49ca5c26711c0fdfc1c3d67fb219d2eb49ca5",
-    "id": "c26711c0fdfc1c3d67fb219d2eb49ca5"
-}
-Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=42405c601b30f81a22b656c91e7bb4ae
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=qaclick123
-				place_id=42405c601b30f81a22b656c91e7bb4ae
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Sat, 25 Mar 2023 09:05:49 GMT
-Server: Apache/2.4.41 (Ubuntu)
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Max-Age: 3600
-Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 247
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "location": {
-        "latitude": "-38.383494",
-        "longitude": "33.427362"
-    },
-    "accuracy": "50",
-    "name": "ram-paradise",
-    "phone_number": "99999999999",
-    "address": "Gachibowli, Hyderabad, India",
-    "types": "shoe park,shop",
-    "website": "http://google.com",
-    "language": "Telugu"
+    "reference": "511d7909328a63b0178bf1fef68c134e511d7909328a63b0178bf1fef68c134e",
+    "id": "511d7909328a63b0178bf1fef68c134e"
 }
 Request method:	DELETE
 Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
@@ -181,10 +58,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "42405c601b30f81a22b656c91e7bb4ae"
+    "place_id": "d5491ccfc0eabb8f40ceff77a42d4605"
 }
 HTTP/1.1 200 OK
-Date: Sat, 25 Mar 2023 09:05:50 GMT
+Date: Sat, 25 Mar 2023 10:22:28 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
