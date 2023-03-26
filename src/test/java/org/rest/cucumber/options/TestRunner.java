@@ -11,5 +11,5 @@ import org.junit.runner.RunWith;
         //tags = "@DeletePlace",
         plugin ={"pretty","json:target/jsonReports/Gmap-cucumber-reports.json"}
 )
-public class GMapTestRunner {
+public class TestRunner {
 }
